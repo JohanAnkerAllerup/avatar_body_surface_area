@@ -113,5 +113,5 @@ def avatar_lesions_BSA(photo_dir, ref, save_path):
     df = pd.DataFrame({"ID": patient_ID,"BSA": BSA_procent_list})
     print (df)
 
-avatar_lesions_BSA(photo_dir = 'files', ref = 3667, save_path=r'/Users/johanankerallerup/dev/pyimagesearch/bsascripts/output/')
+avatar_lesions_BSA(photo_dir = 'files', ref = 3667, save_path=r'output')
     
