@@ -4,7 +4,7 @@
 ![Screenshot](BSA_test_0_full.jpg)
 
 
-![Screenshot](output/BSA_test_0_avatar_contour.jpg)
+![Screenshot1](../master/output/BSA_test_0_avatar_contour.jpg)
 
 
-![Screenshot](output/BSA_test_1_avatar_contour.jpg)
+![Screenshot2](../master/output/BSA_test_1_avatar_contour.jpg)
