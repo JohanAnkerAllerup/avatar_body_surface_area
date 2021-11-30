@@ -106,7 +106,8 @@ def avatar_lesions_BSA(photo_dir, ref, save_path):
         image = cv2.putText(image, "Leisions area:" + str(lesion), (50,80), cv2.FONT_HERSHEY_SIMPLEX , 1 , (80,0,255), 2)
         image = cv2.putText(image, "Leisions procentage of bodyarea:" + str(lesion/avatar_area), (50,100), cv2.FONT_HERSHEY_SIMPLEX , 1 , (80,0,255), 2)
         image = cv2.putText(image, "Path:" + str(full_path), (50,130), cv2.FONT_HERSHEY_SIMPLEX , 1 , (80,0,255), 2)
-        cv2.imwrite(os.path.join(save_path,"files", "full"+j), image)
+        photo_name = j.replace(".jpg", "_full.jpg")   
+        cv2.imwrite(photo_name, image)
         cv2.imshow("Image", image)
         cv2.waitKey(0)
     
