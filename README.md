@@ -4,7 +4,7 @@
 ![Screenshot](BSA_test_0_full.jpg)
 
 
-![Screenshot1](BSA_test_1_avatar_contour.jpg)
+![Screenshot1](BSA_test_0_avatar_contour.jpg)
 
 
-![Screenshot2](BSA_test_0_lesion_contours copy.jpg)
+![Screenshot2](BSA_test_0_lesion_contours.jpg)
